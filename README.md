@@ -36,7 +36,7 @@ A. Using a package to solve nonlinear systems, solve the system formed by nonlin
 
 - $c_1 = 2.0$, $c_2 = 3.0$
 - $σ_1 = 1.5$, $σ_2 = 1.3$
-- $ϵ_11 = -1.2$, $ϵ_12 = ϵ_21 = 0.2$, $ϵ_22 = -1.6$
+- $ϵ_{11} = -1.2$, $ϵ_{12} = ϵ_{21} = 0.2$, $ϵ_{22} = -1.6$
 - $y_0 = 10.0$
 
 B. Next, solve the same system but for an income level 10% higher: $y_1=11.0$. Then, calculate the percent changes for each endogenous variable $(q_1, q_2, p_1, p_2)$.
@@ -45,7 +45,7 @@ B. Next, solve the same system but for an income level 10% higher: $y_1=11.0$. T
 
 Log-linearizing equations is a common technique in economics to perform comparative statics and calculate the approximate impact of exogenous shocks in markets. In this question, you will use this technique to calculate the impact of an exogenous shock on income.
 
-Given an equilibrium, we are interested in quantifying the impact of a small percent shock in income $\tilde{y} \equiv \frac{dy}{y}$ on prices and quantities. To log-linearize the model, we will rely on the fact that $\tilde{y} \equiv \frac{dx}{x} = d \ln x$ for any variable $x >0$. Applying this identity, we can totally differentiate each of the equations to obtain *(try showing this by yourself to get a good practice on log-linearization)*
+Given an equilibrium, we are interested in quantifying the impact of a small percent shock in income $\tilde{y} \equiv \frac{dy}{y}$ on prices and quantities. To log-linearize the model, we will rely on the fact that $\tilde{x} \equiv \frac{dx}{x} = d \ln x$ for any variable $x >0$. Applying this identity, we can totally differentiate each of the equations to obtain *(try showing this by yourself to get a good practice on log-linearization)*
 
 $$
 \begin{align}
@@ -58,7 +58,7 @@ $$
 
 With this, we formed a $4 \times 4$ system that allows us to estimate the percent changes in equilibrium variables given an exogenous shock!
 
-A. Solve the linear system formed by equations $5-8$ above.
+A. Solve the linear system formed by equations $5-8$ above for a 10% income increase shock: $\tilde{y} = 0.1$.
 
 B. Compare the results from questions 1 and 2. Discuss the relative merits of both approaches. In doing so, consider what characteristics of this specific model improves or lowers the quality of the log-linearized approximation.
 
