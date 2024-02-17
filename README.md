@@ -68,7 +68,7 @@ In econometrics, Ordinary Least Squares (OLS) estimation is a fundamental method
 
 $$y_i = \beta_0 + \beta_1 x_i + \epsilon_i$$
 
-where $y_i$ is the dependent variable, $x_i$ is the independent variable, $beta_0$ is the intercept, $\beta_1$ is the slope, and $\epsilon_i$ is the error term for observation $i$.
+where $y_i$ is the dependent variable, $x_i$ is the independent variable, $\beta_0$ is the intercept, $\beta_1$ is the slope, and $\epsilon_i$ is the error term for observation $i$.
 
 Your task is to estimate the parameter vector $\beta = [\beta_0, \beta_1]$ of this linear regression using two methods. Your repository will contain a starter code that generates synthetic data for your estimation. Please do not modify that code and only insert your solution below it. *(If you are using a language other than Julia, please generate synthetic data following the same steps and true values of $\beta$.)*
 
