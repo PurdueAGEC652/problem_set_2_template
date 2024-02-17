@@ -45,7 +45,7 @@ B. Next, solve the same system but for an income level 10% higher: $y_1=11.0$. T
 
 Log-linearizing equations is a common technique in economics to perform comparative statics and calculate the approximate impact of exogenous shocks in markets. In this question, you will use this technique to calculate the impact of an exogenous shock on income.
 
-Given an equilibrium, we are interested in quantifying the impact of a small percent shock in income $\tilde{y} \equiv \frac{dy}{y}$ on prices and quantities. To log-linearize the model, we will rely on the fact that $\tilde{x} \equiv \frac{dx}{x} = d \ln x$ for any variable $x >0$. Applying this identity, we can totally differentiate each of the equations to obtain *(try showing this by yourself to get a good practice on log-linearization)*
+Given an equilibrium, we are interested in quantifying the impact of a small percent shock in income $\tilde{y} \equiv \frac{dy}{y}$ on prices and quantities. To log-linearize the model, we will rely on the fact that $\tilde{x} \equiv \frac{dx}{x} = d \ln x$ for any variable $x >0$. Applying this identity, we can totally differentiate each of the equations to obtain *(try showing this by yourself to get good practice on log-linearization)*
 
 $$
 \begin{align}
@@ -60,7 +60,7 @@ With this, we formed a $4 \times 4$ system that allows us to estimate the percen
 
 A. Solve the linear system formed by equations $5-8$ above for a 10% income increase shock: $\tilde{y} = 0.1$.
 
-B. Compare the results from questions 1 and 2. Discuss the relative merits of both approaches. In doing so, consider what characteristics of this specific model improves or lowers the quality of the log-linearized approximation.
+B. Compare the results from questions 1 and 2. Discuss the relative merits of both approaches. In doing so, consider what characteristics of this specific model improve or lower the quality of the log-linearized approximation.
 
 ### Question 3
 
@@ -72,7 +72,7 @@ where $y_i$ is the dependent variable, $x_i$ is the independent variable, $\beta
 
 Your task is to estimate the parameter vector $\beta = [\beta_0, \beta_1]$ of this linear regression using two methods. Your repository will contain a starter code that generates synthetic data for your estimation. Please do not modify that code and only insert your solution below it. *(If you are using a language other than Julia, please generate synthetic data following the same steps and true values of $\beta$.)*
 
-A. **Linear system of equations approach**: Using the matrix formulation of the OLS estimator, solve for $\beta$ as an unkown vector of a linear system of equations. *(You can check how to formulate that system of equations in your econometrics textbook)*
+A. **Linear system of equations approach**: Using the matrix formulation of the OLS estimator, solve for $\beta$ as an unknown vector of a linear system of equations. *(You can check how to formulate that system of equations in your econometrics textbook)*
 
 B. **Non-linear equation approach**: Solve for $\beta$ as the solution to a non-linear equation representing the first-order conditions of the minimization problem of the sum of squared residuals. The steps below outline how to do it.
    1. Let $F(\beta) = \sum_{i=1}^N (y_i - \beta_0 - \beta_1 x_i)^2$ be the sum of squared residuals we want to minimize. Then, the FOCs of $\min_\beta F(\beta)$ will be given by $\frac{\partial F}{\partial \beta_0} = 0$ and $\frac{\partial F}{\partial \beta_1} = 0$.  Analytically derive the FOCs for $\beta_0$ and $\beta_1$. *(You don't need to type this into your solution)*
