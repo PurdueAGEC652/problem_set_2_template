@@ -7,7 +7,7 @@
 
 # Problem set 2
 
-**Due March 1st at 8 PM**
+**Due March 4th at 8 PM**
 
 **Instructions**: To submit your solution, please commit and push your solution files to your GitHub Education repository. Files must be named `ps2_qX.jl` (or `.py`), where X is the number of the question you are solving. 
 
