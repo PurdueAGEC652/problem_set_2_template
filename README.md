@@ -25,7 +25,7 @@ $$
 q_1 & = c_1 p_1^{\sigma_1} \\
 q_2 & = c_2 p_2^{\sigma_2} \\
 q_1 & = y p_1^{\epsilon_{11}} p_2^{\epsilon_{12}} \\
-q_2 & = y p_2^{\epsilon_{ii}} p_2^{\epsilon_{22}} \\
+q_2 & = y p_1^{\epsilon_{21}} p_2^{\epsilon_{22}} \\
 \end{align}
 $$
 
